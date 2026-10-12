@@ -1,0 +1,285 @@
+
+.pan-page {
+  color: #172033;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.pan-hero {
+  padding: 65px 6%;
+  text-align: center;
+  background: linear-gradient(135deg, #eaf3ff, #ffffff);
+}
+
+.pan-badge,
+.pan-label {
+  display: inline-block;
+  padding: 8px 13px;
+  border-radius: 30px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.pan-hero h1 {
+  color: #123d76;
+  font-size: clamp(32px, 5vw, 46px);
+  margin: 18px 0;
+}
+
+.pan-hero p,
+.pan-heading p {
+  max-width: 760px;
+  margin: 12px auto;
+  line-height: 1.8;
+  color: #536176;
+}
+
+.pan-telugu {
+  line-height: 1.8;
+  color: #536176;
+}
+
+.pan-primary-btn,
+.pan-outline-btn {
+  display: inline-block;
+  padding: 12px 17px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
+
+.pan-primary-btn {
+  margin-top: 12px;
+  color: white;
+  background: #1d4ed8;
+}
+
+.pan-primary-btn:hover {
+  background: #123d76;
+}
+
+.pan-outline-btn {
+  margin-top: auto;
+  color: #1d4ed8;
+  border: 1px solid #93c5fd;
+  background: #eff6ff;
+}
+
+.pan-section {
+  padding: 55px 6%;
+}
+
+.pan-heading {
+  max-width: 760px;
+  text-align: center;
+  margin: 0 auto 35px;
+}
+
+.pan-heading > span {
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pan-heading h2,
+.pan-contact h2 {
+  color: #123d76;
+  font-size: clamp(25px, 3vw, 34px);
+}
+
+.pan-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.pan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 5px 20px #0f172a08;
+}
+
+.pan-number {
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.pan-card h2 {
+  color: #123d76;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.pan-card h3 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.pan-documents {
+  padding-left: 0;
+  list-style: none;
+  width: 100%;
+  flex: 1;
+}
+
+.pan-documents li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.pan-documents li span {
+  color: #15803d;
+  font-weight: 800;
+}
+
+.pan-note {
+  margin-top: 28px;
+  padding: 22px;
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  background: #eff6ff;
+}
+
+.pan-note h3 {
+  margin-top: 0;
+  color: #123d76;
+}
+
+.pan-note p {
+  line-height: 1.8;
+  color: #475569;
+}
+
+.gazette-section {
+  padding-top: 0;
+}
+
+.gazette-card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 28px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+}
+
+.gazette-icon {
+  font-size: 45px;
+}
+
+.gazette-content h2 {
+  color: #123d76;
+}
+
+.gazette-content p {
+  line-height: 1.8;
+  color: #536176;
+}
+
+.pan-contact {
+  padding: 55px 6%;
+  text-align: center;
+  background: #eff6ff;
+}
+
+.pan-contact-card {
+  max-width: 500px;
+  margin: 28px auto;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #dbeafe;
+  background: white;
+}
+
+.pan-contact-icon {
+  font-size: 40px;
+}
+
+.pan-contact-card h3 {
+  color: #123d76;
+  font-size: 22px;
+}
+
+.pan-contact-card p {
+  line-height: 1.8;
+}
+
+.pan-contact-number {
+  font-size: 18px;
+}
+
+.pan-village-notice {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.pan-back {
+  padding: 25px;
+  text-align: center;
+}
+
+.pan-back a {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+.pan-disclaimer {
+  padding: 20px 6%;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #64748b;
+  background: white;
+}
+
+@media (max-width: 900px) {
+  .pan-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .pan-hero {
+    padding: 42px 5%;
+  }
+
+  .pan-section,
+  .pan-contact {
+    padding: 38px 5%;
+  }
+
+  .pan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pan-card {
+    padding: 22px;
+  }
+
+  .gazette-card {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 22px;
+  }
+}
