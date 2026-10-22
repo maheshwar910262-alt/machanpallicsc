@@ -1,0 +1,125 @@
+
+.csc-application {
+  padding: 60px 20px;
+  background: #f2f7ff;
+}
+
+.csc-form-heading {
+  max-width: 700px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.csc-form-tag {
+  color: #1457b8;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.csc-form-heading h2 {
+  margin: 12px 0;
+  color: #12335b;
+  font-size: clamp(27px, 4vw, 36px);
+}
+
+.csc-form-heading p {
+  color: #536276;
+  line-height: 1.7;
+}
+
+.csc-form {
+  max-width: 650px;
+  margin: auto;
+  padding: 28px;
+  display: grid;
+  gap: 18px;
+  background: #fff;
+  border: 1px solid #e0e8f4;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(18, 51, 91, 0.08);
+}
+
+.csc-form label {
+  display: grid;
+  gap: 8px;
+  color: #12335b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.csc-form input,
+.csc-form select,
+.csc-form textarea {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #cbd7e7;
+  border-radius: 9px;
+  background: #fff;
+  color: #172b45;
+  font: inherit;
+  font-weight: 400;
+}
+
+.csc-form input:focus,
+.csc-form select:focus,
+.csc-form textarea:focus {
+  outline: 2px solid #b6d2ff;
+  border-color: #1457b8;
+}
+
+.csc-form textarea {
+  resize: vertical;
+}
+
+.csc-form button {
+  padding: 15px;
+  border: 0;
+  border-radius: 9px;
+  background: #1457b8;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.csc-form button:hover {
+  background: #0d438f;
+}
+
+.csc-form button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.csc-form-message {
+  margin: 0;
+  color: #1457b8;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.csc-form-note {
+  margin: 0;
+  color: #68778b;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.csc-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media (max-width: 560px) {
+  .csc-application {
+    padding: 40px 12px;
+  }
+
+  .csc-form {
+    padding: 20px 16px;
+  }
+}

@@ -5,8 +5,14 @@ import ServiceCard from "./components/ServiceCard";
 import PanService from "./pages/PanService";
 import ServiceInfo from "./pages/ServiceInfo";
 import VoterPage from "./pages/VoterPage";
+import CSCApplicationForm from "./components/CSCApplicationForm";
 import "./App.css";
-
+import studentsImage from "./assets/csclogo.jpeg";
+import FreeDemo from "./pages/FreeDemo";
+import freeDemoImage from "./assets/free-demo-class.png";
+import studentUpdatesImage from "./assets/student-updates.jpg";
+import About from "./pages/About";
+import cscLogo from "./assets/logocsc.png";
 const services = [
   {
     title: "PAN Card",
@@ -63,21 +69,21 @@ const services = [
 
 const updates = [
   {
-    title: "Student Updates",
-    image: "/images/student-services.jpg",
-    description:
-      "Scholarships, exam notifications మరియు విద్యా సమాచారం.",
-    link: "/students",
-    button: "View Student Updates →",
-    internal: true,
-  },
+  title: "Student Updates",
+  image: studentUpdatesImage,
+  description: "Student news, scholarships and education updates.",
+  link: "/student-updates",
+  button: "View Updates →",
+  internal: true,
+},
   {
     title: "Free Demo Classes",
-    image: "/images/free-demo-class.jpg",
+    image: freeDemoImage,
     description:
       "ఉచిత డెమో క్లాసులు, రిజిస్ట్రేషన్ మరియు కొత్త బ్యాచ్ వివరాలు.",
-    link: "YOUR_DEMO_REGISTRATION_LINK",
+    link: "/free-demo",
     button: "Register Now →",
+    internal: true,
   },
   {
     title: "Village Information",
@@ -98,6 +104,7 @@ function Home() {
 
   return (
     <main>
+    
       <section className="hero" id="home">
         <div className="hero-content">
           <span className="tag">WELCOME TO MACHANPALLI</span>
@@ -116,11 +123,12 @@ function Home() {
           </a>
         </div>
 
-        <img
-          className="hero-image"
-          src="/images/village-services.jpg"
-          alt="Village online services"
-        />
+         <img
+        src={studentsImage}
+        alt="Student Services"
+        className="service-image"
+      />
+        
       </section>
 
       <section className="section" id="about">
@@ -188,7 +196,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="section" id="students">
+      {/* <section className="section" id="students">
         <div className="section-heading">
           <span className="tag">FOR STUDENTS</span>
           <h2>Student Services</h2>
@@ -206,7 +214,7 @@ function Home() {
             National Scholarship Portal →
           </a>
         </div>
-      </section>
+      </section> */}
 
       <section className="section services-section" id="services">
         <div className="section-heading">
@@ -298,13 +306,13 @@ function App() {
   return (
     <div className="website">
       <header className="header">
-        <Link className="brand" to="/">
-          <img src="/csclogo.jpeg" alt="CSC logo" />
-          <div>
-            <h2>KMR Village Services</h2>
-            <p>Machanpalli Digital Help Centre</p>
-          </div>
-        </Link>
+       <Link className="brand" to="/">
+  <img src={cscLogo} alt="KMR CSC Machanpalli Logo" />
+  <div>
+    <h2>KMR Village Services</h2>
+    <p>Machanpalli Digital Help Centre</p>
+  </div>
+</Link>
 
         <nav>
           <Link to="/">Home</Link>
@@ -315,6 +323,7 @@ function App() {
           <a href="/#contact">Contact</a>
         </nav>
       </header>
+        
 
       
 <Routes>
@@ -333,6 +342,9 @@ function App() {
     path="/abha"
     element={<ServiceInfo title="ABHA Card Services" />}
   />
+  
+  <Route path="/free-demo" element={<FreeDemo />} />
+  <Route path="/about" element={<About />} />
 </Routes>
 
       <footer>

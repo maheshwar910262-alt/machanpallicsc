@@ -510,3 +510,37 @@ footer {
     min-height: 0;
   }
 }
+.village-image {
+  width: 100%;
+  max-width: 600px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.service-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.csc-logo {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+.brand img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: #ffffff;
+}.brand img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: #ffffff;
+}
