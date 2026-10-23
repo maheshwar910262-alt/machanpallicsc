@@ -544,10 +544,3 @@ footer {
   flex-shrink: 0;
   background: #ffffff;
 }
-/* Hide Netlify development badge if injected */
-netlify-identity-widget,
-[data-netlify],
-iframe[src*="netlify"],
-a[href*="netlify.com"] {
-  /* Do not hide all Netlify links blindly */
-}
