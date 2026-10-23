@@ -1,11 +1,25 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://machanpallicsc.site/</loc></url>
-  <url><loc>https://machanpallicsc.site/about</loc></url>
-  <url><loc>https://machanpallicsc.site/pan</loc></url>
-  <url><loc>https://machanpallicsc.site/students</loc></url>
-  <url><loc>https://machanpallicsc.site/voter</loc></url>
-  <url><loc>https://machanpallicsc.site/abha</loc></url>
-  <url><loc>https://machanpallicsc.site/free-demo</loc></url>
+  <url>
+    <loc>https://machanpallicsc.site/</loc>
+  </url>
+  <url>
+    <loc>https://machanpallicsc.site/about</loc>
+  </url>
+  <url>
+    <loc>https://machanpallicsc.site/pan</loc>
+  </url>
+  <url>
+    <loc>https://machanpallicsc.site/students</loc>
+  </url>
+  <url>
+    <loc>https://machanpallicsc.site/voter</loc>
+  </url>
+  <url>
+    <loc>https://machanpallicsc.site/abha</loc>
+  </url>
+  <url>
+    <loc>https://machanpallicsc.site/free-demo</loc>
+  </url>
 </urlset>
