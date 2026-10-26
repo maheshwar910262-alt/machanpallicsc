@@ -7,7 +7,7 @@ import ServiceInfo from "./pages/ServiceInfo";
 import VoterPage from "./pages/VoterPage";
 import CSCApplicationForm from "./components/CSCApplicationForm";
 import "./App.css";
-import studentsImage from "./assets/csclogo.jpeg";
+import studentsImage from "./assets/logocsc.png";
 import FreeDemo from "./pages/FreeDemo";
 import freeDemoImage from "./assets/free-demo-class.png";
 import studentUpdatesImage from "./assets/student-updates.jpg";
@@ -89,7 +89,7 @@ const updates = [
     title: "Village Information",
     image: "/images/village-services.jpg",
     description:
-      "మంచన్‌పల్లి గ్రామ సమాచారం, ప్రభుత్వ పథకాలు మరియు స్థానిక సేవలు.",
+      "మాచన్‌పల్లి గ్రామ సమాచారం, ప్రభుత్వ పథకాలు మరియు స్థానిక సేవలు.",
     link: "#services",
     button: "View Village Services →",
   },
@@ -112,7 +112,7 @@ function Home() {
           <h1>Village Online Services in Machanpalli</h1>
 
           <p>
-            మంచన్‌పల్లి గ్రామ ప్రజలకు ప్రభుత్వ ఆన్‌లైన్ సేవలు,
+            మాచన్‌పల్లి గ్రామ ప్రజలకు ప్రభుత్వ ఆన్‌లైన్ సేవలు,
             PAN కార్డు సమాచారం, ఆధార్ సేవలు, విద్యార్థుల
             స్కాలర్‌షిప్‌లు మరియు డిజిటల్ సేవల వివరాలు
             ఒకే చోట తెలుసుకోండి.
