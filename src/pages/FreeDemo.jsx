@@ -39,22 +39,28 @@ export default function FreeDemo() {
           <div className="demo-heading-text">
             <h1>Free Demo Classes</h1>
 
-            <p>
-              Learn Data Analytics, Excel, SQL, Power BI and Python.
-              Join a free demo and explore your career options.
-            </p>
+            
+<p>
+  Learn Data Analytics, Excel, SQL, Power BI and Python to develop
+  job-relevant skills and prepare for career opportunities in IT
+  and Non-IT sectors.
+</p>
 
-            <h2>ఉచిత డెమో క్లాసులు</h2>
+<h2>ఉచిత డెమో క్లాసులు</h2>
 
-            <p>
-              డెమో క్లాస్‌కు హాజరై కోర్సు గురించి తెలుసుకోండి.
-              మీకు నచ్చితే కోర్సులో చేరండి.
-            </p>
+<p>
+  ఈ కోర్సులో Data Analytics, Excel, SQL, Power BI మరియు Python
+  నేర్చుకొని IT మరియు Non-IT రంగాల్లో ఉద్యోగ అవకాశాల కోసం
+  సిద్ధం కావచ్చు. ముందుగా ఉచిత డెమో క్లాస్‌కు హాజరై కోర్సు
+  గురించి తెలుసుకోండి.
+</p>
 
-            <p>
-              Degree final-year students, graduates, IT and Non-IT
-              job seekers are welcome to explore the demo.
-            </p>
+<p>
+  Degree final-year students, graduates, freshers and job seekers
+  can join the free demo to explore the course and understand
+  how these skills may support their career goals.
+</p>
+
           </div>
 
           <a
